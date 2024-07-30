@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: #2a78c6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.piano-container{
+    display: flex;
+    width: 90%;
+    height: 57vh;
+    border: 5px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+}
+.key{
+    width: 4.75%;
+    height: 100%;
+    border-radius: 0 0 4px 4px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.white-key{
+    background-color: #fff;
+    border: 2px solid #000;
+    transition: 0.2s all;
+}
+.black-key{
+    background-color: #000;
+    z-index: 2;
+    width: 2.3%;
+    height: 40%;
+    position: absolute;
+    top: 10px;
+    transition: 0.2s all;
+}
+#bk1{
+    left: 3.2%;
+}
+#bk2{
+    left: 6.8%;
+}
+#bk4{
+    left: 13.75%;
+}
+#bk5{
+    left: 17.3%;
+}
+#bk6{
+    left: 20.8%;
+}
+#bk8{
+    left: 27.8%;
+}
+#bk9{
+    left: 31.3%;
+}
+#bk11{
+    left: 38.3%;
+}
+#bk12{
+    left: 41.8%;
+}
+#bk13{
+    left: 45.3%;
+}
+#bk15{
+    left: 52.4%;
+}
+#bk16{
+    left: 56%;
+}
+#bk18{
+    left: 62.9%;
+}
+#bk19{
+    left: 66.45%;
+}
+#bk20{
+    left: 70%;
+}
+#bk22{
+    left: 77%;
+}
+#bk23{
+    left: 80.5%;
+}
+#bk25{
+    left: 87.5%;
+}
+#bk26{
+    left: 91%;
+}
+#bk27{
+    left: 94.5%;
+}
+.black-key:hover{
+    background-color: #238632;
+}
+.white-key:hover{
+    background-color: #999;
+}
